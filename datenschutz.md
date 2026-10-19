@@ -10,7 +10,7 @@ Stand: 18.10.2026
 
 Sascha Zinsstag
 Wilhelmhofallee 68, 47799 Krefeld
-E-Mail: app.sascha@me.com
+E-Mail: app.sascha@icloud.com
 
 ## 2. Grundsatz
 
