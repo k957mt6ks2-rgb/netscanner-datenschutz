@@ -4,7 +4,7 @@ title: Datenschutzerklärung – NetScanner
 
 # Datenschutzerklärung – NetScanner (iPhone, iPad und Mac)
 
-Stand: 20.10.2026
+Stand: 24.10.2026
 
 ## 1. Verantwortlicher
 
@@ -25,21 +25,25 @@ Dienste von Drittanbietern. Alle Ergebnisse eines Netzwerk-Scans bleiben auf dei
   im Speicher gehalten. Beim Beenden der App sind sie weg. Exportierst du Ergebnisse als CSV,
   entscheidest du, wohin die Datei geht.
 - **Lokales Netzwerk:** Die App braucht die Berechtigung „Lokales Netzwerk“ (iOS bzw. macOS),
-  um Geräte im Heimnetz zu finden.
+  um Geräte im Heimnetz zu finden. Der Scan sendet Ping-, TCP- und UDP-Anfragen (z. B. mDNS,
+  NetBIOS, SSDP) an Adressen in deinem eigenen Netzwerk, um aktive Geräte, Namen und Hersteller
+  zu finden. Diese Anfragen verlassen dein Netzwerk nicht.
 - **Netzwerk-Werkzeuge:** Ping, DNS-Lookup, Traceroute, Speedtest und „Öffentliche IP“ laufen
   nur, wenn du sie startest. Ihre Ergebnisse (z. B. Antwortzeiten, Route, Messwerte des
   Speedtests) werden nur zur Anzeige im Speicher gehalten. Lediglich die gewählte Darstellung
   des Speedtests (Tacho oder Balken) merkt sich die App auf deinem Gerät.
-- **WLAN-Informationen und Standort (nur iPhone und iPad):** Für die Anzeige von WLAN-Name und Verbindungsqualität
-  verlangt iOS die Berechtigung „Standort“ (Beim Verwenden der App). Die App liest dabei
-  keine Standortkoordinaten, speichert und überträgt keinen Standort.
-- **Router-Zugang (optional, nur iPhone und iPad):** Wenn du Adresse, Benutzername und Passwort deines Routers
-  einträgst, liest die App die Geräteliste direkt von deinem Router. Die Zugangsdaten
-  werden nur auf deinem Gerät gespeichert (Passwörter im iOS-Schlüsselbund) und nur an deinen
-  eigenen Router gesendet.
-- **Mac-Version:** Die Mac-App bietet den Netzwerk-Scan und die Netzwerk-Werkzeuge, aber keine
-  WLAN-/Standort- und keine Router-Funktion. MAC-Adressen liest sie aus der ARP-Tabelle deines
-  Macs.
+- **WLAN-Informationen und Standort (iPhone, iPad und Mac):** Für die Anzeige von WLAN-Name und
+  Verbindungsqualität verlangt das System (iOS bzw. macOS) die Berechtigung „Standort“ (Beim
+  Verwenden der App). Die App liest dabei keine Standortkoordinaten, speichert und überträgt
+  keinen Standort.
+- **Router-Zugang (optional, iPhone, iPad und Mac):** Wenn du Adresse, Benutzername und Passwort
+  deines Routers einträgst, liest die App die Geräteliste direkt von deinem Router. Die
+  Zugangsdaten werden nur auf deinem Gerät gespeichert (Passwörter im Schlüsselbund von iOS bzw.
+  macOS) und nur an deinen eigenen Router gesendet.
+- **Mac-Version:** Die Mac-App bietet dieselben Funktionen wie die iPhone- und iPad-App
+  (Netzwerk-Scan, Netzwerk-Werkzeuge, WLAN-Anzeige, Router-Zugang). Sie läuft in der App-Sandbox
+  von macOS. MAC-Adressen ermittelt sie aus Bonjour, UPnP, NetBIOS oder der Router-Geräteliste;
+  die ARP-Tabelle des Macs liest sie nicht.
 
 ## 4. Abfragen bei externen Diensten
 
