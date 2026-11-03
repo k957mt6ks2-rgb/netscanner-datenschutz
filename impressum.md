@@ -15,6 +15,7 @@ Deutschland
 
 ## Kontakt
 
+Telefon: +49 2151 6499137  
 E-Mail: app.sascha@icloud.com
 
 Anfragen zur App beantworte ich in der Regel innerhalb weniger Werktage. Hilfe und häufige Fragen

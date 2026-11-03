@@ -17,6 +17,7 @@ Germany
 
 ## Contact
 
+Phone: +49 2151 6499137  
 Email: app.sascha@icloud.com
 
 I usually answer enquiries about the app within a few working days. Help and frequently asked
