@@ -133,3 +133,7 @@ Beschwerde bei einer Aufsichtsbehörde).
 
 Wird die App um Funktionen erweitert, die Daten übertragen, wird diese Erklärung vorher
 angepasst.
+
+## 8. Impressum
+
+Anbieterkennzeichnung: [Impressum](impressum).

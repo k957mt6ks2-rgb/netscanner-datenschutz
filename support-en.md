@@ -8,7 +8,7 @@ NetScanner for iPhone, iPad and Mac. If you have questions, find a bug or have a
 **app.sascha@icloud.com**. Please include the device, the iOS or macOS version and the app
 version (shown in the app’s About screen).
 
-You can find the [privacy policy](datenschutz-en) here. (German version: [Support](support).)
+You can find the [privacy policy](datenschutz-en) and the [legal notice](impressum-en) here. (German version: [Support](support).)
 
 ## Frequently asked questions
 

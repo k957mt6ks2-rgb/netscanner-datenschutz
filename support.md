@@ -8,7 +8,7 @@ NetScanner für iPhone, iPad und Mac. Bei Fragen, Fehlern oder Wünschen schreib
 **app.sascha@icloud.com**. Bitte nenne dabei das Gerät, die iOS- bzw. macOS-Version und die
 App-Version (steht in der Info-Ansicht der App).
 
-Die [Datenschutzerklärung](datenschutz) findest du hier.
+Die [Datenschutzerklärung](datenschutz) und das [Impressum](impressum) findest du hier.
 
 ## Häufige Fragen
 

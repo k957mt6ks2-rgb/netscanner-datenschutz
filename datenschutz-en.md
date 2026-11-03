@@ -127,3 +127,7 @@ and delete the app, which removes all locally stored data. You have the rights u
 ## 7. Changes
 
 If the app is extended with features that transmit data, this policy will be adjusted beforehand.
+
+## 8. Legal notice
+
+Provider identification: [Legal notice](impressum-en).
