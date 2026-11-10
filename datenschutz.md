@@ -4,7 +4,7 @@ title: Datenschutzerklärung – NetScanner
 
 # Datenschutzerklärung – NetScanner (iPhone, iPad und Mac)
 
-Stand: 02.11.2026
+Stand: 10.11.2026
 
 ## 1. Verantwortlicher
 
@@ -39,7 +39,7 @@ Dienste von Drittanbietern. Alle Ergebnisse eines Netzwerk-Scans bleiben auf dei
   NetBIOS, SSDP) an Adressen in deinem eigenen Netzwerk, um aktive Geräte, Namen und Hersteller
   zu finden. Diese Anfragen verlassen dein Netzwerk nicht.
 - **Netzwerk-Werkzeuge:** Ping, DNS-Lookup, Traceroute (auch über IPv6), Port-Prüfung,
-  Web-Prüfung, Bonjour-Browser, Wake-on-LAN, Subnetz-Rechner, Speedtest und „Öffentliche IP“
+  Web-Prüfung, Mail-Prüfung, Bonjour-Browser, Wake-on-LAN, Subnetz-Rechner, Speedtest und „Öffentliche IP“
   laufen nur, wenn du sie startest. Ihre Ergebnisse (z. B. Antwortzeiten, Route, Zertifikat,
   Ports) werden nur zur Anzeige im Speicher gehalten. Ausnahme ist der Speedtest: Dessen
   Ergebnisse (Zeitpunkt, Download, Upload, Latenz, Verbindungsart, Standort des Messservers)
@@ -107,11 +107,17 @@ selbst. Wenn du das nicht möchtest, starte den
 Speedtest nicht. Einzelheiten und Hinweise zur Ausübung deiner Rechte findest du unter
 <https://www.measurementlab.net/privacy/>.
 
-**Ping, DNS-Lookup, Traceroute, Port-Prüfung und Web-Prüfung:** Mit diesen Werkzeugen sendet die
+**Ping, DNS-Lookup, Traceroute, Port-Prüfung, Web-Prüfung und Mail-Prüfung:** Mit diesen Werkzeugen sendet die
 App Anfragen an das Ziel, das du eingibst (bei der Web-Prüfung baut sie eine Verbindung auf und
 liest TLS-Zertifikat und HTTP-Kopfzeilen), sowie bei Traceroute an die Router auf dem Weg dorthin. Die Namensauflösung
 übernimmt der DNS-Server deines Netzwerks. Diese Anfragen gehen direkt von deinem Gerät an das
 jeweilige Ziel und nicht an den Entwickler.
+
+**Mail-Prüfung:** Die App fragt die DNS-Einträge der Domain ab, die du eingibst (MX, SPF, DKIM,
+DMARC, MTA-STS, TLS-RPT und BIMI). Diese Abfragen laufen über den DNS-Server deines Netzwerks,
+der sie sieht, und sind für den Entwickler nicht einsehbar. Hat die Domain eine MTA-STS-Richtlinie,
+lädt die App sie per HTTPS von der Adresse `mta-sts.<Domain>` der eingegebenen Domain. Es werden keine
+weiteren Daten übertragen, und die Ergebnisse werden nur zur Anzeige im Speicher gehalten.
 
 Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Bereitstellung der von dir aufgerufenen bzw.
 eingerichteten Funktion, z. B. des Widgets).

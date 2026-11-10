@@ -6,7 +6,7 @@ title: Privacy Policy – NetScanner
 
 *This is a translation of the German original, [Datenschutzerklärung](datenschutz). In case of doubt, the German version applies.*
 
-Last updated: 2 November 2026
+Last updated: 10 November 2026
 
 ## 1. Controller
 
@@ -38,7 +38,7 @@ services. All results of a network scan stay on your device.
   in your home network. The scan sends ping, TCP and UDP requests (for example mDNS, NetBIOS,
   SSDP) to addresses in your own network to find active devices, names and manufacturers. These
   requests do not leave your network.
-- **Network tools:** Ping, DNS lookup, traceroute (also over IPv6), port check, web check,
+- **Network tools:** Ping, DNS lookup, traceroute (also over IPv6), port check, web check, mail check,
   Bonjour browser, Wake-on-LAN, subnet calculator, speed test and “Public IP” only run when you
   start them. Their results (for example response times, route, certificate, ports) are only kept
   in memory for display. The exception is the speed test: the app stores its results (time,
@@ -103,11 +103,17 @@ and the app points out this publication in the speed test window. The speed test
 same measurement; it never starts it by itself. If you do not want this, do not start the speed test. Details and information
 on exercising your rights can be found at <https://www.measurementlab.net/privacy/>.
 
-**Ping, DNS lookup, traceroute, port check and web check:** With these tools the app sends
+**Ping, DNS lookup, traceroute, port check, web check and mail check:** With these tools the app sends
 requests to the target you enter (the web check opens a connection and reads the TLS certificate
 and HTTP headers) and, for traceroute, to the routers on the way there. Name resolution is handled by the DNS
 server of your network. These requests go directly from your device to the respective target and
 not to the developer.
+
+**Mail check:** The app queries the DNS records of the domain you enter (MX, SPF, DKIM, DMARC,
+MTA-STS, TLS-RPT and BIMI). These queries go through the DNS server of your network, which can see
+them, and the developer cannot see them. If the domain has an MTA-STS policy, the app downloads it over
+HTTPS from the address `mta-sts.<domain>` of the domain you entered. No other data is transmitted,
+and the results are only kept in memory for display.
 
 The legal basis is Art. 6(1)(b) GDPR (providing the feature you called up or set up, for
 example the widget).
