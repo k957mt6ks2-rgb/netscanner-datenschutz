@@ -6,7 +6,7 @@ title: Politique de confidentialité – NetScanner
 
 *Ceci est une traduction de l’original allemand, [Datenschutzerklärung](datenschutz). En cas de doute, la version allemande prévaut.*
 
-Dernière mise à jour : 10 novembre 2026
+Dernière mise à jour : 19 novembre 2026
 
 ## 1. Responsable du traitement
 
@@ -48,6 +48,9 @@ de plantage de tiers. Tous les résultats d’un scan réseau restent sur votre 
   envoi, latence, type de connexion, emplacement du serveur de mesure) sous forme d’historique des tests
   de débit sur votre appareil (jusqu’à 200 entrées, supprimables une par une ou en totalité), ainsi que
   l’affichage choisi (compteur ou barres).
+- **État des services (iPhone et iPad) :** l’app mémorise sur votre appareil les adresses que vous ajoutez vous-même (y compris l’adresse
+  d’un flux RSS ou Atom) ainsi que votre choix d’autres fournisseurs. Les résultats (accessibilité, messages des fournisseurs) ne sont
+  conservés en mémoire que pour l’affichage. Vous pouvez supprimer vos propres adresses à tout moment.
 - **Widgets et contrôles (iPhone et iPad) :** le widget réseau et le widget de test de débit affichent
   la dernière adresse IP publique connue, la date et l’heure ainsi que le nombre d’appareils du dernier
   scan, de même que la dernière mesure du test de débit. Pour cela, l’app dépose ces valeurs dans un
@@ -77,7 +80,7 @@ de plantage de tiers. Tous les résultats d’un scan réseau restent sur votre 
 
 ## 4. Requêtes auprès de services externes
 
-Pour les fonctions « IP publique » (y compris l’affichage du fournisseur) et « Test de débit » ainsi que
+Pour les fonctions « IP publique » (y compris l’affichage du fournisseur), « Test de débit » et « État des services » ainsi que
 pour les widgets, l’app envoie des requêtes à des services sur Internet. Pour des raisons techniques, ces
 services voient votre adresse IP publique :
 
@@ -86,6 +89,7 @@ services voient votre adresse IP publique :
 | ipify.org (api.ipify.org, api6.ipify.org) | Détermination de votre adresse IPv4/IPv6 publique |
 | ipwho.is, à défaut ipinfo.io | Attribution de l’IP publique à un fournisseur (FAI), à un numéro AS et à une localisation approximative |
 | Measurement Lab (M-Lab) : locate.measurementlab.net et le serveur de mesure qui en est attribué | Test de débit : recherche du serveur le plus proche, puis mesure du téléchargement, de l’envoi et de la latence avec le test ouvert NDT7 |
+| Pages d’état et services des fournisseurs dans État des services (voir ci-dessous) | Consultation des messages d’état et vérification de l’accessibilité |
 
 Ces requêtes sont déclenchées lorsque vous ouvrez ou actualisez l’outil « IP publique » (également via
 le bouton d’actualisation du widget réseau ou en ouvrant l’entrée de la barre des menus sur le Mac), ou
@@ -98,6 +102,18 @@ ipify.org, et non à ipwho.is, ipinfo.io ou Measurement Lab. Elle prend fin lors
 widget. Aucune autre donnée (nom, identifiant d’appareil, données réseau) n’est transmise. Les services
 sont exploités par des tiers. Leurs propres politiques de confidentialité s’appliquent à leur traitement
 des données.
+
+**État des services (iPhone et iPad) :** l’outil consulte, directement depuis votre appareil, les pages d’état et interfaces accessibles
+publiquement des fournisseurs figurant dans la liste et vérifie si leurs services sont accessibles. Dans la sélection fixe, il s’agit de
+Microsoft (Microsoft 365, Azure), Apple, Google (Workspace, Cloud), Amazon Web Services, Cloudflare, Slack, Zoom, Cisco Webex, TeamViewer,
+GoTo, Atlassian, Dropbox, GitHub, GitLab, Docker, Anthropic, OpenAI, 1Password et Bitwarden. L’app n’interroge d’autres fournisseurs du
+catalogue « Ajouter d’autres fournisseurs », ainsi que les adresses et adresses de flux que vous saisissez vous-même, qu’une fois que vous
+les activez ou les saisissez. En outre, l’app vérifie, par une requête adressée à gstatic.com (Google) et une autre à apple.com, si votre
+appareil dispose d’Internet. Les requêtes sont déclenchées lorsque vous ouvrez l’outil pour la première fois, touchez « Vérifier
+maintenant » ou ajoutez un fournisseur ou une adresse. Pour des raisons techniques, les fournisseurs voient votre adresse IP publique et la
+requête de l’app (identifiant « NetScanner »). Aucune autre donnée (nom, identifiant d’appareil, données réseau) n’est transmise, et le
+développeur n’en reçoit aucune. Les textes des messages proviennent du fournisseur concerné et sont uniquement affichés. Les fournisseurs
+exploitent eux-mêmes leurs services ; leurs propres politiques de confidentialité s’appliquent à leur traitement des données.
 
 **Test de débit et Measurement Lab :** un test de débit transfère des données de test pendant environ
 10 secondes en téléchargement et autant en envoi. Selon votre connexion, cela représente plusieurs

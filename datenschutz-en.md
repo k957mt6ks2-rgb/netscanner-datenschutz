@@ -6,7 +6,7 @@ title: Privacy Policy – NetScanner
 
 *This is a translation of the German original, [Datenschutzerklärung](datenschutz). In case of doubt, the German version applies.*
 
-Last updated: 10 November 2026
+Last updated: 19 November 2026
 
 ## 1. Controller
 
@@ -45,6 +45,9 @@ services. All results of a network scan stay on your device.
   download, upload, latency, connection type, location of the measurement server) as a speed
   test history on your device (up to 200 entries, deletable one by one or all at once), as well
   as the display style you chose (gauge or bars).
+- **Service status (iPhone and iPad):** The app stores addresses you add yourself (including the address of an RSS or Atom feed) and your
+  choice of further providers on your device. The results (reachability, providers’ messages) are only kept in memory for display. You can
+  remove your own addresses at any time.
 - **Widgets and controls (iPhone and iPad):** The network widget and the speed test widget show
   the last known public IP address, the time and number of devices of the last scan and the last
   speed test measurement. For this, the app stores these values in a file in the shared folder
@@ -73,7 +76,7 @@ services. All results of a network scan stay on your device.
 
 ## 4. Requests to external services
 
-For the “Public IP” (including the provider display) and “Speed test” features and for the
+For the “Public IP” (including the provider display), “Speed test” and “Service Status” features and for the
 widgets, the app sends requests to services on the internet. For technical reasons, these services see your public IP
 address:
 
@@ -82,6 +85,7 @@ address:
 | ipify.org (api.ipify.org, api6.ipify.org) | Determining your public IPv4/IPv6 address |
 | ipwho.is, with ipinfo.io as fallback | Assigning the public IP to a provider (ISP), AS number and rough location |
 | Measurement Lab (M-Lab): locate.measurementlab.net and the measurement server assigned from there | Speed test: finding the nearest server and measuring download, upload and latency with the open NDT7 test |
+| Status pages and services of the providers in Service Status (see below) | Retrieving status messages and checking reachability |
 
 These requests are triggered when you open or refresh the “Public IP” tool (also via the refresh
 button in the network widget or by opening the menu bar item on the Mac) or tap “Start” in the
@@ -92,6 +96,17 @@ even without the app being open, to keep it up to date. This background request 
 ipify.org, not to ipwho.is, ipinfo.io or Measurement Lab. It ends when you remove the widget.
 No further data (name, device ID, network data) is sent along. The services
 are operated by third parties. Their own privacy policies apply to their data processing.
+
+**Service Status (iPhone and iPad):** The tool retrieves, directly from your device, the publicly accessible status pages and interfaces of the
+providers in the list and checks whether their services are reachable. In the fixed selection these are Microsoft (Microsoft 365, Azure),
+Apple, Google (Workspace, Cloud), Amazon Web Services, Cloudflare, Slack, Zoom, Cisco Webex, TeamViewer, GoTo, Atlassian, Dropbox, GitHub,
+GitLab, Docker, Anthropic, OpenAI, 1Password and Bitwarden. The app only queries further providers from the “Add More Providers” catalog, as
+well as addresses and feed addresses you enter yourself, once you switch them on or enter them. In addition, the app uses one request each
+to gstatic.com (Google) and apple.com to check whether your device has internet. The requests are triggered when you open the tool for the
+first time, tap “Check Now” or add a provider or an address. For technical reasons, the providers see your public IP address and the app’s
+request (identifier “NetScanner”). No further data (name, device ID, network data) is sent along, and the developer receives none of it. The
+texts of the messages come from the respective provider and are only displayed. The providers operate their services themselves; their own
+privacy policies apply to their data processing.
 
 **Speed test and Measurement Lab:** A speed test transfers test data for about 10 seconds each
 in download and upload. Depending on your connection, this is several hundred megabytes; on a

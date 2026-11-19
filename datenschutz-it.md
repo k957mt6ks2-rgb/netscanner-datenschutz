@@ -6,7 +6,7 @@ title: Informativa sulla privacy – NetScanner
 
 *Questa è una traduzione dell’originale tedesco, [Datenschutzerklärung](datenschutz). In caso di dubbio prevale la versione tedesca.*
 
-Ultimo aggiornamento: 10 novembre 2026
+Ultimo aggiornamento: 19 novembre 2026
 
 ## 1. Titolare del trattamento
 
@@ -50,6 +50,9 @@ Suo dispositivo.
   download, upload, latenza, tipo di connessione, ubicazione del server di misurazione) come
   cronologia dei test di velocità sul Suo dispositivo (fino a 200 voci, eliminabili singolarmente
   o tutte insieme), così come lo stile di visualizzazione da Lei scelto (indicatore o barre).
+- **Stato dei servizi (iPhone e iPad):** l’app memorizza sul Suo dispositivo gli indirizzi che aggiunge Lei stesso (compreso l’indirizzo di un
+  feed RSS o Atom) e la Sua scelta di altri fornitori. I risultati (raggiungibilità, messaggi dei fornitori) vengono tenuti in memoria solo
+  per la visualizzazione. Può rimuovere in qualsiasi momento i Suoi indirizzi.
 - **Widget e controlli (iPhone e iPad):** il widget di rete e il widget del test di velocità
   mostrano l’ultimo indirizzo IP pubblico noto, l’ora e il numero di dispositivi dell’ultima
   scansione e l’ultima misurazione del test di velocità. A tale scopo l’app memorizza questi
@@ -79,7 +82,7 @@ Suo dispositivo.
 
 ## 4. Richieste a servizi esterni
 
-Per le funzioni “IP pubblico” (inclusa la visualizzazione del provider) e “Test di velocità” e
+Per le funzioni “IP pubblico” (inclusa la visualizzazione del provider), “Test di velocità” e “Stato dei servizi” e
 per i widget, l’app invia richieste a servizi su Internet. Per ragioni tecniche, questi servizi
 vedono il Suo indirizzo IP pubblico:
 
@@ -88,6 +91,7 @@ vedono il Suo indirizzo IP pubblico:
 | ipify.org (api.ipify.org, api6.ipify.org) | Determinazione del Suo indirizzo IP pubblico IPv4/IPv6 |
 | ipwho.is, con ipinfo.io come alternativa | Associazione dell’IP pubblico a un provider (ISP), a un numero AS e a una posizione approssimativa |
 | Measurement Lab (M-Lab): locate.measurementlab.net e il server di misurazione da lì assegnato | Test di velocità: individuazione del server più vicino e misurazione di download, upload e latenza con il test aperto NDT7 |
+| Pagine di stato e servizi dei fornitori in Stato dei servizi (vedi sotto) | Lettura dei messaggi di stato e verifica della raggiungibilità |
 
 Queste richieste vengono attivate quando apre o aggiorna lo strumento “IP pubblico” (anche
 tramite il pulsante di aggiornamento nel widget di rete o aprendo l’elemento della barra dei
@@ -99,6 +103,17 @@ aperta, per mantenerlo aggiornato. Questa richiesta in background è diretta sol
 non a ipwho.is, ipinfo.io né a Measurement Lab. Termina quando rimuove il widget. Non vengono
 trasmessi altri dati (nome, ID del dispositivo, dati di rete). I servizi sono gestiti da terzi.
 Per il loro trattamento dei dati valgono le rispettive informative sulla privacy.
+
+**Stato dei servizi (iPhone e iPad):** lo strumento legge, direttamente dal Suo dispositivo, le pagine di stato e le interfacce pubblicamente
+accessibili dei fornitori presenti nell’elenco e verifica se i loro servizi sono raggiungibili. Nella selezione fissa si tratta di Microsoft
+(Microsoft 365, Azure), Apple, Google (Workspace, Cloud), Amazon Web Services, Cloudflare, Slack, Zoom, Cisco Webex, TeamViewer, GoTo,
+Atlassian, Dropbox, GitHub, GitLab, Docker, Anthropic, OpenAI, 1Password e Bitwarden. L’app interroga altri fornitori del catalogo
+“Aggiungi altri fornitori”, nonché indirizzi e indirizzi di feed che inserisce Lei stesso, solo dopo che li ha attivati o inseriti. Inoltre
+l’app verifica, con una richiesta a gstatic.com (Google) e una ad apple.com, se il Suo dispositivo ha accesso a Internet. Le richieste vengono
+attivate quando apre lo strumento per la prima volta, tocca “Verifica ora” oppure aggiunge un fornitore o un indirizzo. Per ragioni tecniche,
+i fornitori vedono il Suo indirizzo IP pubblico e la richiesta dell’app (identificativo “NetScanner”). Non vengono trasmessi altri dati (nome,
+ID del dispositivo, dati di rete) e lo sviluppatore non ne riceve alcuno. I testi dei messaggi provengono dal rispettivo fornitore e vengono
+solo visualizzati. I fornitori gestiscono i propri servizi; per il loro trattamento dei dati valgono le rispettive informative sulla privacy.
 
 **Test di velocità e Measurement Lab:** un test di velocità trasferisce dati di prova per circa
 10 secondi ciascuno in download e in upload. A seconda della connessione, si tratta di diverse

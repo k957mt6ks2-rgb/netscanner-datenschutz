@@ -4,7 +4,7 @@ title: Datenschutzerklärung – NetScanner
 
 # Datenschutzerklärung – NetScanner (iPhone, iPad und Mac)
 
-Stand: 10.11.2026
+Stand: 19.11.2026
 
 ## 1. Verantwortlicher
 
@@ -45,6 +45,9 @@ Dienste von Drittanbietern. Alle Ergebnisse eines Netzwerk-Scans bleiben auf dei
   Ergebnisse (Zeitpunkt, Download, Upload, Latenz, Verbindungsart, Standort des Messservers)
   speichert die App als Speedtest-Verlauf auf deinem Gerät (bis zu 200 Einträge, einzeln oder
   ganz löschbar), ebenso die gewählte Darstellung (Tacho oder Balken).
+- **Dienste-Status (iPhone und iPad):** Eigene Adressen, die du hinzufügst (auch die Adresse eines RSS- oder Atom-Feeds), und deine Auswahl
+  weiterer Anbieter speichert die App auf deinem Gerät. Die Ergebnisse (Erreichbarkeit, Meldungen der Anbieter) werden nur zur Anzeige im
+  Speicher gehalten. Eigene Adressen kannst du jederzeit wieder entfernen.
 - **Widgets und Steuerelemente (iPhone und iPad):** Das Netzwerk-Widget und das Speedtest-Widget
   zeigen die zuletzt bekannte öffentliche IP-Adresse, Zeitpunkt und Anzahl der Geräte des letzten
   Scans sowie die letzte Speedtest-Messung. Dafür legt die App diese Werte in einer Datei im
@@ -74,7 +77,7 @@ Dienste von Drittanbietern. Alle Ergebnisse eines Netzwerk-Scans bleiben auf dei
 
 ## 4. Abfragen bei externen Diensten
 
-Für die Funktionen „Öffentliche IP“ (inklusive Anbieter-Anzeige), „Speedtest“ und die Widgets
+Für die Funktionen „Öffentliche IP“ (inklusive Anbieter-Anzeige), „Speedtest“, „Dienste-Status“ und die Widgets
 sendet die App Anfragen an Dienste im Internet. Dabei sehen diese Dienste technisch bedingt deine öffentliche
 IP-Adresse:
 
@@ -83,6 +86,7 @@ IP-Adresse:
 | ipify.org (api.ipify.org, api6.ipify.org) | Ermittlung deiner öffentlichen IPv4-/IPv6-Adresse |
 | ipwho.is, ersatzweise ipinfo.io | Zuordnung der öffentlichen IP zu Anbieter (ISP), AS-Nummer und grobem Standort |
 | Measurement Lab (M-Lab): locate.measurementlab.net und der von dort zugewiesene Messserver | Speedtest: Suche des nächstgelegenen Servers sowie Messung von Download, Upload und Latenz mit dem offenen Test NDT7 |
+| Statusseiten und Dienste der Anbieter im Dienste-Status (siehe unten) | Abruf der Statusmeldungen und Prüfung der Erreichbarkeit |
 
 Diese Anfragen werden ausgelöst, wenn du das Werkzeug „Öffentliche IP“ öffnest oder
 aktualisierst (auch über den Aktualisieren-Knopf im Netzwerk-Widget oder durch Öffnen des
@@ -94,6 +98,17 @@ IPv4-Adresse bei ipify.org ab, um sie aktuell anzuzeigen. Dieser Hintergrundabru
 ipify.org, nicht an ipwho.is, ipinfo.io oder Measurement Lab. Er endet, wenn du das Widget
 entfernst. Es werden keine weiteren Daten (Name, Geräte-ID, Netzwerkdaten) mitgesendet. Die Dienste werden von Dritten betrieben. Für deren
 Datenverarbeitung gelten deren eigene Datenschutzerklärungen.
+
+**Dienste-Status (iPhone und iPad):** Das Werkzeug ruft direkt von deinem Gerät die öffentlich zugänglichen Statusseiten und Schnittstellen der
+Anbieter ab, die in der Liste stehen, und prüft, ob deren Dienste erreichbar sind. In der festen Auswahl sind das Microsoft (Microsoft 365,
+Azure), Apple, Google (Workspace, Cloud), Amazon Web Services, Cloudflare, Slack, Zoom, Cisco Webex, TeamViewer, GoTo, Atlassian, Dropbox,
+GitHub, GitLab, Docker, Anthropic, OpenAI, 1Password und Bitwarden. Weitere Anbieter aus dem Katalog „Weitere Anbieter hinzufügen“ sowie
+Adressen und Feed-Adressen, die du selbst einträgst, fragt die App erst ab, wenn du sie aktivierst bzw. einträgst. Zusätzlich prüft die App mit
+je einer Anfrage an gstatic.com (Google) und apple.com, ob dein Gerät Internet hat. Die Abfragen werden ausgelöst, wenn du das Werkzeug zum
+ersten Mal öffnest, auf „Jetzt prüfen“ tippst oder einen Anbieter bzw. eine Adresse hinzufügst. Die Anbieter sehen dabei technisch bedingt deine
+öffentliche IP-Adresse und die Anfrage der App (Kennung „NetScanner“). Es werden keine weiteren Daten (Name, Geräte-ID, Netzwerkdaten)
+mitgesendet, und der Entwickler erhält nichts davon. Die Texte der Meldungen stammen vom jeweiligen Anbieter und werden nur angezeigt. Die
+Anbieter betreiben ihre Dienste selbst; für deren Datenverarbeitung gelten ihre eigenen Datenschutzerklärungen.
 
 **Speedtest und Measurement Lab:** Ein Speedtest überträgt für jeweils etwa 10 Sekunden
 Testdaten im Download und im Upload. Je nach Anschluss sind das mehrere hundert Megabyte, im
