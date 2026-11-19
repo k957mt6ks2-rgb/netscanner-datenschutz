@@ -50,7 +50,7 @@ Suo dispositivo.
   download, upload, latenza, tipo di connessione, ubicazione del server di misurazione) come
   cronologia dei test di velocità sul Suo dispositivo (fino a 200 voci, eliminabili singolarmente
   o tutte insieme), così come lo stile di visualizzazione da Lei scelto (indicatore o barre).
-- **Stato dei servizi (iPhone e iPad):** l’app memorizza sul Suo dispositivo gli indirizzi che aggiunge Lei stesso (compreso l’indirizzo di un
+- **Stato dei servizi (iPhone, iPad e Mac):** l’app memorizza sul Suo dispositivo gli indirizzi che aggiunge Lei stesso (compreso l’indirizzo di un
   feed RSS o Atom) e la Sua scelta di altri fornitori. I risultati (raggiungibilità, messaggi dei fornitori) vengono tenuti in memoria solo
   per la visualizzazione. Può rimuovere in qualsiasi momento i Suoi indirizzi.
 - **Widget e controlli (iPhone e iPad):** il widget di rete e il widget del test di velocità
@@ -104,7 +104,7 @@ non a ipwho.is, ipinfo.io né a Measurement Lab. Termina quando rimuove il widge
 trasmessi altri dati (nome, ID del dispositivo, dati di rete). I servizi sono gestiti da terzi.
 Per il loro trattamento dei dati valgono le rispettive informative sulla privacy.
 
-**Stato dei servizi (iPhone e iPad):** lo strumento legge, direttamente dal Suo dispositivo, le pagine di stato e le interfacce pubblicamente
+**Stato dei servizi (iPhone, iPad e Mac):** lo strumento legge, direttamente dal Suo dispositivo, le pagine di stato e le interfacce pubblicamente
 accessibili dei fornitori presenti nell’elenco e verifica se i loro servizi sono raggiungibili. Nella selezione fissa si tratta di Microsoft
 (Microsoft 365, Azure), Apple, Google (Workspace, Cloud), Amazon Web Services, Cloudflare, Slack, Zoom, Cisco Webex, TeamViewer, GoTo,
 Atlassian, Dropbox, GitHub, GitLab, Docker, Anthropic, OpenAI, 1Password e Bitwarden. L’app interroga altri fornitori del catalogo

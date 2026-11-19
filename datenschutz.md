@@ -45,7 +45,7 @@ Dienste von Drittanbietern. Alle Ergebnisse eines Netzwerk-Scans bleiben auf dei
   Ergebnisse (Zeitpunkt, Download, Upload, Latenz, Verbindungsart, Standort des Messservers)
   speichert die App als Speedtest-Verlauf auf deinem Gerät (bis zu 200 Einträge, einzeln oder
   ganz löschbar), ebenso die gewählte Darstellung (Tacho oder Balken).
-- **Dienste-Status (iPhone und iPad):** Eigene Adressen, die du hinzufügst (auch die Adresse eines RSS- oder Atom-Feeds), und deine Auswahl
+- **Dienste-Status (iPhone, iPad und Mac):** Eigene Adressen, die du hinzufügst (auch die Adresse eines RSS- oder Atom-Feeds), und deine Auswahl
   weiterer Anbieter speichert die App auf deinem Gerät. Die Ergebnisse (Erreichbarkeit, Meldungen der Anbieter) werden nur zur Anzeige im
   Speicher gehalten. Eigene Adressen kannst du jederzeit wieder entfernen.
 - **Widgets und Steuerelemente (iPhone und iPad):** Das Netzwerk-Widget und das Speedtest-Widget
@@ -99,7 +99,7 @@ ipify.org, nicht an ipwho.is, ipinfo.io oder Measurement Lab. Er endet, wenn du 
 entfernst. Es werden keine weiteren Daten (Name, Geräte-ID, Netzwerkdaten) mitgesendet. Die Dienste werden von Dritten betrieben. Für deren
 Datenverarbeitung gelten deren eigene Datenschutzerklärungen.
 
-**Dienste-Status (iPhone und iPad):** Das Werkzeug ruft direkt von deinem Gerät die öffentlich zugänglichen Statusseiten und Schnittstellen der
+**Dienste-Status (iPhone, iPad und Mac):** Das Werkzeug ruft direkt von deinem Gerät die öffentlich zugänglichen Statusseiten und Schnittstellen der
 Anbieter ab, die in der Liste stehen, und prüft, ob deren Dienste erreichbar sind. In der festen Auswahl sind das Microsoft (Microsoft 365,
 Azure), Apple, Google (Workspace, Cloud), Amazon Web Services, Cloudflare, Slack, Zoom, Cisco Webex, TeamViewer, GoTo, Atlassian, Dropbox,
 GitHub, GitLab, Docker, Anthropic, OpenAI, 1Password und Bitwarden. Weitere Anbieter aus dem Katalog „Weitere Anbieter hinzufügen“ sowie

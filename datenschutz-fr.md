@@ -48,7 +48,7 @@ de plantage de tiers. Tous les résultats d’un scan réseau restent sur votre 
   envoi, latence, type de connexion, emplacement du serveur de mesure) sous forme d’historique des tests
   de débit sur votre appareil (jusqu’à 200 entrées, supprimables une par une ou en totalité), ainsi que
   l’affichage choisi (compteur ou barres).
-- **État des services (iPhone et iPad) :** l’app mémorise sur votre appareil les adresses que vous ajoutez vous-même (y compris l’adresse
+- **État des services (iPhone, iPad et Mac) :** l’app mémorise sur votre appareil les adresses que vous ajoutez vous-même (y compris l’adresse
   d’un flux RSS ou Atom) ainsi que votre choix d’autres fournisseurs. Les résultats (accessibilité, messages des fournisseurs) ne sont
   conservés en mémoire que pour l’affichage. Vous pouvez supprimer vos propres adresses à tout moment.
 - **Widgets et contrôles (iPhone et iPad) :** le widget réseau et le widget de test de débit affichent
@@ -103,7 +103,7 @@ widget. Aucune autre donnée (nom, identifiant d’appareil, données réseau) n
 sont exploités par des tiers. Leurs propres politiques de confidentialité s’appliquent à leur traitement
 des données.
 
-**État des services (iPhone et iPad) :** l’outil consulte, directement depuis votre appareil, les pages d’état et interfaces accessibles
+**État des services (iPhone, iPad et Mac) :** l’outil consulte, directement depuis votre appareil, les pages d’état et interfaces accessibles
 publiquement des fournisseurs figurant dans la liste et vérifie si leurs services sont accessibles. Dans la sélection fixe, il s’agit de
 Microsoft (Microsoft 365, Azure), Apple, Google (Workspace, Cloud), Amazon Web Services, Cloudflare, Slack, Zoom, Cisco Webex, TeamViewer,
 GoTo, Atlassian, Dropbox, GitHub, GitLab, Docker, Anthropic, OpenAI, 1Password et Bitwarden. L’app n’interroge d’autres fournisseurs du

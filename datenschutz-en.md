@@ -45,7 +45,7 @@ services. All results of a network scan stay on your device.
   download, upload, latency, connection type, location of the measurement server) as a speed
   test history on your device (up to 200 entries, deletable one by one or all at once), as well
   as the display style you chose (gauge or bars).
-- **Service status (iPhone and iPad):** The app stores addresses you add yourself (including the address of an RSS or Atom feed) and your
+- **Service status (iPhone, iPad and Mac):** The app stores addresses you add yourself (including the address of an RSS or Atom feed) and your
   choice of further providers on your device. The results (reachability, providers’ messages) are only kept in memory for display. You can
   remove your own addresses at any time.
 - **Widgets and controls (iPhone and iPad):** The network widget and the speed test widget show
@@ -97,7 +97,7 @@ ipify.org, not to ipwho.is, ipinfo.io or Measurement Lab. It ends when you remov
 No further data (name, device ID, network data) is sent along. The services
 are operated by third parties. Their own privacy policies apply to their data processing.
 
-**Service Status (iPhone and iPad):** The tool retrieves, directly from your device, the publicly accessible status pages and interfaces of the
+**Service Status (iPhone, iPad and Mac):** The tool retrieves, directly from your device, the publicly accessible status pages and interfaces of the
 providers in the list and checks whether their services are reachable. In the fixed selection these are Microsoft (Microsoft 365, Azure),
 Apple, Google (Workspace, Cloud), Amazon Web Services, Cloudflare, Slack, Zoom, Cisco Webex, TeamViewer, GoTo, Atlassian, Dropbox, GitHub,
 GitLab, Docker, Anthropic, OpenAI, 1Password and Bitwarden. The app only queries further providers from the “Add More Providers” catalog, as
