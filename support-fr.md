@@ -45,6 +45,21 @@ l’app transfère plusieurs centaines de mégaoctets ; sur les données mobiles
 forfait. M-Lab publie les résultats des mesures, adresse IP comprise, sous forme de données ouvertes. Le
 test ne démarre que si vous touchez « Start ».
 
+### Que deviennent mes données dans l’État des services ?
+L’État des services consulte les pages d’état publiques des fournisseurs de la liste directement depuis votre
+appareil et vérifie si leurs services répondent. Les fournisseurs voient votre adresse IP ; rien n’est envoyé
+au développeur. Les requêtes sont envoyées lorsque vous ouvrez l’outil pour la première fois, touchez « Vérifier
+maintenant » ou ajoutez un fournisseur ou une adresse. L’app n’interroge d’autres fournisseurs et vos propres
+adresses qu’une fois que vous les activez ou les saisissez. Vous supprimez vos propres adresses en balayant vers
+la gauche.
+
+### L’État des services affiche « Joignable », mais le fournisseur a des problèmes.
+Pour une adresse que vous ajoutez vous-même, l’app peut d’abord seulement vérifier si la page répond. Elle
+reconnaît automatiquement de nombreuses pages d’état et affiche leurs messages. Pour les autres, saisissez en plus
+l’adresse d’un flux RSS ou Atom de la page d’état (`https` uniquement). L’app estime à partir du texte si un
+message signale une panne ; un avis peut donc parfois être trop prudent ou manquer. Pour les fournisseurs de la
+liste, l’icône à côté du service ouvre la page d’état du fournisseur.
+
 ### Comment fonctionne l’accès au routeur ?
 Il est facultatif et destiné aux routeurs FRITZ!Box. Vous saisissez l’adresse, le nom d’utilisateur et le
 mot de passe. L’app s’en sert pour lire la liste des appareils directement depuis votre box. Le mot de

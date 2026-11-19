@@ -43,6 +43,20 @@ Anschluss mehrere hundert Megabyte, im Mobilfunk kann das dein Datenvolumen bela
 veröffentlicht die Messergebnisse samt IP-Adresse als offene Daten. Der Test startet nur, wenn du auf
 „Start“ tippst.
 
+### Was passiert beim Dienste-Status mit meinen Daten?
+Der Dienste-Status ruft die öffentlichen Statusseiten der Anbieter in der Liste direkt von deinem Gerät ab und
+prüft, ob deren Dienste antworten. Die Anbieter sehen dabei deine IP-Adresse; an den Entwickler wird nichts
+gesendet. Abgefragt wird, wenn du das Werkzeug zum ersten Mal öffnest, auf „Jetzt prüfen“ tippst oder einen
+Anbieter bzw. eine Adresse hinzufügst. Weitere Anbieter und eigene Adressen fragt die App erst ab, wenn du sie
+aktivierst bzw. einträgst. Eigene Adressen entfernst du durch Wischen nach links.
+
+### Der Dienste-Status zeigt „Erreichbar“, aber beim Anbieter gibt es Probleme.
+Bei einer eigenen Adresse kann die App zunächst nur prüfen, ob die Seite antwortet. Viele Statusseiten erkennt
+sie automatisch und zeigt ihre Meldungen. Für andere trägst du zusätzlich die Adresse eines RSS- oder Atom-Feeds
+der Statusseite ein (nur `https`). Ob eine Meldung eine Störung ist, schätzt die App aus ihrem Text; ein Hinweis
+kann deshalb auch einmal zu vorsichtig ausfallen oder fehlen. Bei den Anbietern der Liste öffnet das Symbol neben
+dem Dienst die Statusseite des Anbieters.
+
 ### Wie funktioniert der Router-Zugang?
 Er ist optional und für FRITZ!Box-Router gedacht. Du trägst Adresse, Benutzername und Passwort ein.
 Die App liest damit die Geräteliste direkt von deiner Box. Das Passwort liegt im Schlüsselbund deines

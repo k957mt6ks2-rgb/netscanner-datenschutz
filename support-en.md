@@ -42,6 +42,20 @@ connection, the app transfers several hundred megabytes; on mobile data this can
 volume. M-Lab publishes the measurement results including the IP address as open data. The test
 only starts when you tap “Start”.
 
+### What happens to my data in Service Status?
+Service Status retrieves the public status pages of the providers in the list directly from your device and
+checks whether their services respond. The providers see your IP address; nothing is sent to the developer.
+Requests are made when you open the tool for the first time, tap “Check Now” or add a provider or an address.
+The app only queries further providers and your own addresses once you switch them on or enter them. You remove
+your own addresses by swiping left.
+
+### Service Status shows “Reachable”, but the provider has problems.
+For an address you add yourself, the app can at first only check whether the page responds. It recognizes many
+status pages automatically and shows their messages. For others, you also enter the address of an RSS or Atom
+feed of the status page (`https` only). The app estimates from a message’s text whether it is an outage, so a
+notice may occasionally be too cautious or missing. For the providers in the list, the icon next to the service
+opens the provider’s status page.
+
 ### How does router access work?
 It is optional and meant for FRITZ!Box routers. You enter the address, username and password. The
 app uses them to read the device list directly from your box. The password is stored in your
